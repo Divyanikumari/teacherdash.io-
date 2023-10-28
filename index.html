@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="js/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="font/css/all.css">
+    <link rel="stylesheet" href="js/mini-event-calendar.min.css">
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="font/css/all.min.css">
+    <!-- <script src="font/js/all.min.js"></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="js/mini-event-calendar.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+
+</head>
+
+<body>
+    <main class="main-wrapper">
+        <div class="container-fluid mt-4">
+            <div class="row">
+                <div class="col-md d-md-none d-sm-block">
+                    <div class="profile-img  ">
+                        <span class="pro-name">
+                            <h6 class="d-inline">John Mason</h6>
+                            <span class="profile-text">johnmoson12@gmail.com</span>
+                        </span>
+
+                        <div class="profile-box"><img src="img/profile2.png" alt="profile" width="30" height="30">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-12 banner-p">
+                            <!-- <img src="img/school-b.jpg" alt="" width="300px" height="200px"> -->
+                            <div class="banner-box">
+                                <div class="content-box">
+                                    <div>
+                                    <p><span>Welcome back,</span> <span class="blue-text">John!</span></p>
+                                    <p>you are student you have completed <span class="orange-txt"><b>100%</b> </span> of the tasks Progress is <span class="orange-txt"><b>very good!</b></span></p></div>
+                                </div>
+                                <div class="img-wrapper"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" pro-main">
+                        <div class="box-shadow box-main">
+                            <div class="head-progress">
+                                <h6>My Students</h6>
+                                <a href="">View all</a>
+                            </div>
+                            <div class="main-progress">
+                                <div class="img-box-pro">
+                                    <div class="img-wrap-p"><img src="img/profile-img.jpg" alt=""></div>
+                                    <span>Ameila Coller</span>
+                                </div>
+                                <div class="teacher-pro">
+                                    <div class="progress">
+                                        <div class="progress-bar p-orange" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>80%</span>
+                                </div>
+
+                            </div>
+
+                            <div class="main-progress">
+                                <div class="img-box-pro">
+                                    <div class="img-wrap-p"><img src="img/profile-img.jpg" alt=""></div>
+                                    <span>Ameila Coller</span>
+                                </div>
+                                <div class="teacher-pro">
+                                    <div class="progress ">
+                                        <div class="progress-bar p-blue" role="progressbar" style="width: 30%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>60%</span>
+                                </div>
+
+                            </div>
+
+                            <div class="main-progress">
+                                <div class="img-box-pro">
+                                    <div class="img-wrap-p"><img src="img/profile-img.jpg" alt=""></div>
+                                    <span>Ameila Coller</span>
+                                </div>
+                                <div class="teacher-pro">
+                                    <div class="progress">
+                                        <div class="progress-bar p-orange" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>40%</span>
+                                </div>
+
+                            </div>
+
+                            <div class="main-progress">
+                                <div class="img-box-pro">
+                                    <div class="img-wrap-p"><img src="img/profile-img.jpg" alt=""></div>
+                                    <span>Ameila Coller</span>
+                                </div>
+                                <div class="teacher-pro">
+                                    <div class="progress">
+                                        <div class="progress-bar p-blue" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span>100%</span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="box-shadow box-main">
+                            <div class="head-progress">
+                                <h6>Working hours</h6>
+                                <div class="teach-drop">
+                                    <!-- Example single danger button -->
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Today
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                            <button class="dropdown-item" type="button">Yesterday</button>
+                                            <button class="dropdown-item" type="button">Today</button>
+                                            <button class="dropdown-item" type="button">Tomorrow</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-circular">
+                                <div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-12 mb-12">
+                                                <div class="card border-0">
+                                                    <div class="card-body p-4">
+                                                        <!-- <h1 class="fw-bold text-uppercase mb-0">$124k</h1> -->
+                                                        <div class="row align-items-center">
+                                                            <div class="col-lg-12">
+
+
+                                                            </div>
+
+                                                            <div class="col-lg-12">
+
+                                                                <!-- Example 1 -->
+                                                                <canvas id="pieChart1"></canvas>
+                                                                <div class="position-absolute position-center text-center">
+                                                                    <h6 class="fw-bold text-uppercase mb-0">75%</h6>
+                                                                </div>
+                                                                <div class="chart-text d-flex justify-content-between">
+                                                                    <h6><i class="fa-solid fa-circle orange-txt"></i>Progress
+                                                                    </h6>
+                                                                    <h6><i class="fa-solid fa-circle prog-blue"></i>Done
+                                                                    </h6>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 table-wrap">
+                        <div class="course-name d-flex justify-content-between align-items-center">
+                            <p class="">Media for lessons</p>
+                            <a href="#">View All</a>
+                        </div>
+                        <div class="table-scroll">
+                            <table class="table table-sm">
+                                <tbody>
+                                    <tr>
+
+                                        <td style="width:30%;" class="pl-20"><span class="start-course"><span
+                                                class="img-box l-orange">
+                                                <h6>B1</h6>
+                                            </span><span class="t-content"><a href="#"><span>Web Design</span></a>
+                                        </td>
+                                        <td style="width:25%;" class="pdf-text"><a href="#">Combridge advanced.pdf</a></td>
+                                        <td style="width:20%;" class="list-text"><i class="fa-solid fa-circle"></i><span>Only view</span>
+                                        </td>
+                                        <td style="width:15%;">64 members</td>
+                                        <td style="width:10%;" class="bold-text">42 MB</td>
+                                    </tr>
+                                    <tr>
+
+                                        <td style="width:30%;" class="pl-20"><span class="start-course"><span
+                                                class="img-box com-blue">
+                                                <h6>A1</h6>
+                                            </span><span class="t-content"><a href="#">
+                                                    <span>Common English</span>
+                                            </a>
+                                            </span>
+                                            </span>
+                                        </td>
+                                        <td style="width:25%;" class="pdf-text"><a href="#">Combridge advanced.pdf</a></td>
+                                        <td style="width:20%;" class="list-text"><i class="fa-solid fa-circle"></i> Only view
+                                        </td>
+                                        <td style="width:15%;">64 members</td>
+                                        <td style="width:10%;" class="bold-text">42 MB</td>
+                                    </tr>
+                                    <tr>
+
+                                        <td style="width:30%;" class="pl-20"><span class="start-course"><span
+                                                class="img-box com-red">
+                                                <h6>C1</h6>
+                                            </span><span class="t-content"><a href="#"><span>Data with
+                                                        Pythons</span></a>
+                                        </td>
+                                        <td style="width:25%;" class="pdf-text"><a href="#">Combridge advanced.pdf</a></td>
+                                        <td style="width:20%;" class="list-text orange-txt"><i class="fa-solid fa-circle"></i> Only view</td>
+                                        <td style="width:15%;">64 members</td>
+                                        <td style="width:10%;" class="bold-text">42 MB</td>
+                                    </tr>
+                                    <tr>
+
+                                        <td style="width:30%;" class="pl-20"><span class="start-course"><span
+                                                class="img-box com-blue">
+                                                <h6>A1</h6>
+                                            </span><span class="t-content"><a href="#"><span>Html
+                                                        Basics</span></a>
+                                        </td>
+                                        <td style="width:25%;" class="pdf-text"><a href="#">Combridge advanced.pdf</a></td>
+                                        <td style="width:20%;" class="list-text"><i class="fa-solid fa-circle"></i> Only view
+                                        </td>
+                                        <td style="width:15%;">64 members</td>
+                                        <td style="width:10%;" class="bold-text">42 MB</td>
+                                    </tr>
+
+                                    <tr>
+
+                                        <td style="width:30%;" class="pl-20"><span class="start-course"><span
+                                                class="img-box l-orange">
+                                                <h6>D1</h6>
+                                            </span><span class="t-content"><a href="#"><span>JavaScript</span></a>
+                                        </td>
+                                        <td style="width:25%;" class="pdf-text"><a href="#">Combridge advanced.pdf</a></td>
+                                        <td style="width:20%;" class="list-text"><i class="fa-solid fa-circle"></i> Only view
+                                        </td>
+                                        <td style="width:15%;">64 members</td>
+                                        <td style="width:10%;" class="bold-text">42 MB</td>
+                                    </tr>
+
+
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 pl20">
+                    <div class="row d-none d-sm-none d-md-block">
+                        <div class="profile-img ">
+                            <span class="pro-name">
+                                <h6 class="d-inline">John Mason</h6>
+                                <span class="profile-text">johnmoson12@gmail.com</span>
+                            </span>
+
+                            <div class="profile-box"><img src="img/profile2.png" alt="profile" width="30" height="30">
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      
+                                    </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item border-b" href="#"><i class="fa-solid fa-gauge"></i><span>Dashboard</span></a>
+                                    <a class="dropdown-item" href="#"><i class="fa-solid fa-user"></i><span>
+
+                                    profile</span></a>
+                                    <a class="dropdown-item" href="#"><i class="fa-solid fa-message"></i><span>Message</span></a>
+                                    <a class="dropdown-item" href="#"><i class="fa-solid fa-wrench"></i><span>Preferance</span></a>
+                                    <a class="dropdown-item" href="#"><i class="fa-solid fa-table-cells"></i><span>Grades</span></a>
+                                    <a class="dropdown-item" href="#"><i class="fa-solid fa-right-from-bracket"></i><span>Log Out</span></a>
+                                    <a class="dropdown-item" href="#"><i class="fa-solid fa-user-secret"></i><span>switch role to</span> </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="right-col-wrap box-shadow">
+                        <div class="row">
+                            <div class="calander-box">
+                                <div class="app">
+                                    <div class="app__main">
+                                        <div class="calendar">
+                                            <div id="calendar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="heading-main">
+                                <h6 class="mb-0">Lesson</h6>
+                                <a href="#">View all</a>
+                            </div>
+
+                            <div class="col-md-12 box-shadow lesson-wrap oran-border">
+                                <div class="card card-content">
+
+                                    <div class="card-body padding-5">
+                                        <div class="less-head">
+                                            <div class="lesson-text">
+                                                <h6 class="card-title p-0 m-0">Common English</h6>
+                                                <span class="lesson">13 Lessons</span>
+                                            </div>
+                                            <!-- <div class="dot-lesson">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div> -->
+                                        </div>
+
+                                    </div>
+                                    <div class="card-body padding-5 d-flex justify-content-between align-items-center">
+                                        <span class="course-img">
+                                            <img src="img/avatar2.png">
+                                            <img src="img/avatar1.png">
+                                            <img src="img/avatar3.jpg">
+                                        </span>
+                                        <!-- <a href="#" class="card-link orange-btn">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 box-shadow lesson-wrap blue-border">
+                                <div class="card card-content">
+
+                                    <div class="card-body padding-5">
+                                        <div class="less-head">
+                                            <div class="lesson-text">
+                                                <h6 class="card-title p-0 m-0">Speaking club</h6>
+                                                <span class="lesson">13 Lessons</span>
+                                            </div>
+                                            <!-- <div class="dot-lesson">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div> -->
+                                        </div>
+                                    </div>
+
+
+                                    <div class="card-body padding-5 d-flex justify-content-between align-items-center">
+                                        <span class="course-img">
+                                            <img src="img/Avatar1.png">
+                                            <img src="img/Avatar2.png">
+                                            <img src="img/Avatar3.jpg">
+                                        </span>
+                                        <!-- <a href="#" class="card-link orange-btn"><i class="fa-solid fa-plus"></i></a> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md">
+                                <div class="home-work">
+                                    <div class="comp-sec d-flex justify-content-between align-items-center">
+                                        <span class="">Completed Task</span>
+                                        <a href="#">View All</a>
+                                    </div>
+
+                                    <div class="home-work">
+                                        <div class="home-scroll">
+                                            <div class="work-main">
+                                                <div class="work-wrapper">
+                                                    <div class="work1">
+                                                        <!-- <span>circle</span> -->
+                                                        <a href="" class="progress-box">
+                                                            <div class="main-progress">
+                                                                <div class="progress" data-value='50'>
+                                                                    <span class="progress-left">
+                                                                                <span class="progress-bar "></span>
+                                                                    </span>
+                                                                    <span class="progress-right">
+                                                                                <span class="progress-bar "></span>
+                                                                    </span>
+                                                                    <div class="progress-value rounded-circle d-flex align-items-center justify-content-center">
+                                                                        <div class="font-weight-bold">50<sup>%</sup></div>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="text-container">
+                    
+                                                                            <span>Styleing with css Styleing with css</span>
+                                                                <span>12 tabs</span>
+
+
+                                                                </span>
+                                                            </div>
+                                                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="work-wrapper">
+                                                    <div class="work1">
+                                                        <!-- <span>circle</span> -->
+                                                        <a href="" class="progress-box">
+                                                            <div class="main-progress">
+                                                                <div class="progress" data-value='70'>
+                                                                    <span class="progress-left">
+                                                                                <span class="progress-bar "></span>
+                                                                    </span>
+                                                                    <span class="progress-right">
+                                                                                <span class="progress-bar "></span>
+                                                                    </span>
+                                                                    <div class="progress-value rounded-circle d-flex align-items-center justify-content-center">
+                                                                        <div class="font-weight-bold">70<sup>%</sup></div>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="text-container">
+                    
+                                                                            <span>Styleing with css</span>
+                                                                <span>12 tabs</sp>
+                    
+                                                                                <!-- <span></span>
+                                                                <b></b> -->
+                                                                </span>
+                                                            </div>
+                                                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="work-wrapper">
+                                                    <div class="work1">
+                                                        <!-- <span>circle</span> -->
+                                                        <a href="" class="progress-box">
+                                                            <div class="main-progress">
+                                                                <div class="progress" data-value='100'>
+                                                                    <span class="progress-left">
+                                                                                <span class="progress-bar "></span>
+                                                                    </span>
+                                                                    <span class="progress-right">
+                                                                                <span class="progress-bar "></span>
+                                                                    </span>
+                                                                    <div class="progress-value rounded-circle d-flex align-items-center justify-content-center">
+                                                                        <div class="font-weight-bold">100<sup>%</sup></div>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="text-container">
+                    
+                                                                            <span>Styleing with css</span>
+                                                                <span>12 tabs</sp>
+                    
+                                                                                <!-- <span></span>
+                                                                <b></b> -->
+                                                                </span>
+                                                            </div>
+                                                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="work-wrapper">
+                                                    <div class="work1">
+                                                        <!-- <span>circle</span> -->
+                                                        <a href="" class="progress-box">
+                                                            <div class="main-progress">
+                                                                <div class="progress" data-value='90'>
+                                                                    <span class="progress-left">
+                                                                                <span class="progress-bar "></span>
+                                                                    </span>
+                                                                    <span class="progress-right">
+                                                                                <span class="progress-bar "></span>
+                                                                    </span>
+                                                                    <div class="progress-value rounded-circle d-flex align-items-center justify-content-center">
+                                                                        <div class="font-weight-bold">90<sup>%</sup></div>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="text-container">
+                    
+                                                                            <span>Styleing with css</span>
+                                                                <span>12 tabs</sp>
+                    
+                                                                                <!-- <span></span>
+                                                                <b></b> -->
+                                                                </span>
+                                                            </div>
+                                                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="work-wrapper">
+                                                    <div class="work1">
+                                                        <!-- <span>circle</span> -->
+                                                        <a href="" class="progress-box">
+                                                            <div class="main-progress">
+                                                                <div class="progress" data-value='0'>
+                                                                    <span class="progress-left">
+                                                                                <span class="progress-bar "></span>
+                                                                    </span>
+                                                                    <span class="progress-right">
+                                                                                <span class="progress-bar "></span>
+                                                                    </span>
+                                                                    <div class="progress-value rounded-circle d-flex align-items-center justify-content-center">
+                                                                        <div class="font-weight-bold">0<sup>%</sup></div>
+                                                                    </div>
+                                                                </div>
+                                                                <span class="text-container">
+                    
+                                                                            <span>Styleing with css</span>
+                                                                <span>12 tabs</sp>
+                    
+                                                                                <!-- <span></span>
+                                                                <b></b> -->
+                                                                </span>
+                                                            </div>
+                                                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        var sameDaylastWeek = new Date().setDate(new Date().getDate() - 7);
+        var someDaynextMonth = new Date().setDate(new Date().getDate() + 31);
+
+        // All dates should be provided in timestamps
+        var sampleEvents = [{
+            title: "Soulful sundays bay area",
+            date: sameDaylastWeek, // Same day as today, last week
+            link: "https://www.eventbrite.com/e/soulful-sundays-bay-area-edition-tickets-55214242285?aff=ehomecard"
+        }, ];
+
+        $(document).ready(function() {
+            $("#calendar").MEC({
+                events: sampleEvents
+            });
+
+            // Make calendar start on monday
+            $("#calendar2").MEC({
+                from_monday: true,
+                events: sampleEvents
+            });
+        });
+
+        /* pie chart*/
+        Chart.defaults.RoundedDoughnut = Chart.helpers.clone(Chart.defaults.doughnut);
+        Chart.controllers.RoundedDoughnut = Chart.controllers.doughnut.extend({
+            draw: function(ease) {
+                var ctx = this.chart.ctx;
+                var easingDecimal = ease || 1;
+                var arcs = this.getMeta().data;
+                Chart.helpers.each(arcs, function(arc, i) {
+                    arc.transition(easingDecimal).draw();
+
+                    var pArc = arcs[i === 0 ? arcs.length - 1 : i - 1];
+                    var pColor = pArc._view.backgroundColor;
+
+                    var vm = arc._view;
+                    var radius = (vm.outerRadius + vm.innerRadius) / 2;
+                    var thickness = (vm.outerRadius - vm.innerRadius) / 2;
+                    var startAngle = Math.PI - vm.startAngle - Math.PI / 2;
+                    var angle = Math.PI - vm.endAngle - Math.PI / 2;
+
+                    ctx.save();
+                    ctx.translate(vm.x, vm.y);
+
+                    ctx.fillStyle = i === 0 ? vm.backgroundColor : pColor;
+                    ctx.beginPath();
+                    ctx.arc(radius * Math.sin(startAngle), radius * Math.cos(startAngle), thickness, 0, 2 * Math.PI);
+                    ctx.fill();
+
+                    ctx.fillStyle = vm.backgroundColor;
+                    ctx.beginPath();
+                    ctx.arc(radius * Math.sin(angle), radius * Math.cos(angle), thickness, 0, 2 * Math.PI);
+                    ctx.fill();
+
+                    ctx.restore();
+                });
+            }
+        });
+
+
+        // EXAMPLE 1
+        var ctx1 = document.getElementById("pieChart1");
+        var pieChart1 = new Chart(ctx1, {
+            type: 'RoundedDoughnut',
+            options: {
+                cutoutPercentage: 75,
+                value: 75,
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        padding: 10,
+                        boxWidth: 40,
+                        fontStyle: 'bold',
+                        fontColor: '#aaa',
+                        usePointStyle: true,
+                    }
+                },
+
+            },
+            data: {
+                labels: [
+
+                ],
+                datasets: [{
+                    data: [250, 100, 100],
+                    borderWidth: 0,
+                    backgroundColor: [
+                        '#0f56b9',
+                        "#fa9a1f",
+                        "#edf0f4"
+                    ],
+                    hoverBackgroundColor: [
+                        '#0f56b9',
+                        "#fa9a1f",
+                        "#edf0f4"
+                    ]
+                }]
+            }
+        });
+
+        /*Progress percentage */
+        $(function() {
+
+            $(".progress").each(function() {
+
+                var value = $(this).attr('data-value');
+                var left = $(this).find('.progress-left .progress-bar');
+                var right = $(this).find('.progress-right .progress-bar');
+
+                if (value > 0) {
+                    if (value <= 50) {
+                        right.css('transform', 'rotate(' + percentageToDegrees(value) + 'deg)')
+                    } else {
+                        right.css('transform', 'rotate(180deg)')
+                        left.css('transform', 'rotate(' + percentageToDegrees(value - 50) + 'deg)')
+                    }
+                }
+
+            })
+
+            function percentageToDegrees(percentage) {
+
+                return percentage / 100 * 360
+
+            }
+
+        });
+    </script>
+</body>
+
+</html>
